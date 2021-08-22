@@ -1,0 +1,21 @@
+.navbar-container{
+    height: 5rem;
+    width: 100wv;
+    background-color: var(--background-color-darken);
+    display: flex;
+    flex-direction: row;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+.navbar-container a{
+    padding: 0 1rem 0 1rem;
+    font-size: 1.2rem;
+}
+
+.navlink-selected{
+    font-weight: bold;
+    color: var(--primary-color-darken);
+}

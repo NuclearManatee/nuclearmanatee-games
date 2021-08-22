@@ -1,0 +1,63 @@
+
+.manatee-logo{
+    fill: var(--background-color-darken);
+    -webkit-transform-origin: center center;
+    animation:spin infinite 10s linear;
+}
+
+.manatee-logo:hover, .stop-animation{
+    animation-play-state: paused;
+}
+
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+
+
+.overflow-visible{
+    overflow:visible;
+}
+
+.display-inline{
+    display:inline;
+}
+
+.fill-primary {
+    fill: var(--color-dark);
+}
+
+.fill-secondary{
+    fill: var(--color-light);
+}
+
+.fill-logo-manatee-fill, .fill-logo-fill {
+    fill: var(--color-base);
+    stroke: #000000;
+    stroke-width:0;
+    stop-color:#000000
+}
+
+.logo-electron-path{
+    fill: var(--color-light);
+    stroke-width:1.25024
+}
+
+.logo-electron-path:hover{
+    fill: var(--color-white);
+}
+
+.logo-electron-fill{
+    fill:#ffffff;
+    stroke:#241f1c;
+    stroke-width:0;
+    stop-color:#000000
+}

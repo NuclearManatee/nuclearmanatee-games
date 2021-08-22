@@ -1,0 +1,12 @@
+
+.page-container{
+  margin: 0;
+  width: 100wv;
+  height: calc(100vh - 10rem);
+  display: flex;
+  flex-direction: column;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}

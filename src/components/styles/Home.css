@@ -1,0 +1,9 @@
+
+.header h1{
+  color: var(--color-light);
+}
+
+.container {
+  font-size: 1.3rem;
+  color: var(--color-white);
+}
