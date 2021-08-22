@@ -1,6 +1,7 @@
 
 .manatee-logo{
     fill: var(--background-color-darken);
+    transform-origin: center center;
     -webkit-transform-origin: center center;
     animation:spin infinite 10s linear;
 }
