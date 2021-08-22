@@ -1,7 +1,7 @@
 .navbar-container{
     height: 5rem;
     width: 100wv;
-    background-color: var(--background-color-darken);
+    background-color: var(--background-color-dark);
     display: flex;
     flex-direction: row;
     -webkit-align-items: center;
