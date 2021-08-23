@@ -1,4 +1,4 @@
-import './styles/Logo.css'
+import '../styles/Logo.css'
 import React, {useState} from 'react'
 import {NavLink } from 'react-router-dom'
 import clsx from 'clsx'

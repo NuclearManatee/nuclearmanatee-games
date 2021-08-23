@@ -1,0 +1,18 @@
+[
+    {
+       "id":1,
+       "content":{
+          "title":"Little Katy's Tea Party",
+          "description":"A tea-drinking indie tabletop role-playing game about doing your best helping a girl grow up",
+          "itchLink":"https://nuclearmanatee.itch.io/little-katys-tea-party"
+       }
+    },
+    {
+       "id":2,
+       "content":{
+          "title":"For Thy Lich",
+          "description":"an indie TTRPG about being tied to an undead disgraced tyrant",
+          "itchLink":"https://nuclearmanatee.itch.io/for-thy-lich"
+       }
+    }
+ ]

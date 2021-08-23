@@ -2,7 +2,7 @@
 .page-container{
   background-color: var(--color-base);
   margin: 0;
-  width: 100wv;
+  min-height: 65vh;
   padding: 2rem;
   display: flex;
   flex-direction: column;
