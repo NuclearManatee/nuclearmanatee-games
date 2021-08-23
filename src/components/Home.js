@@ -16,10 +16,10 @@ export default function App() {
     <div className="container">
       <header className="header">
         <h1>a Nuclear Manatee</h1>
-        <Logo setText={setText} setDefaultText={setDefaultText} />
         <p className='displayText'>
           {text}
         </p>
+        <Logo setText={setText} setDefaultText={setDefaultText} />
       </header>
     </div>
   </>);

@@ -9,7 +9,7 @@
 
 
 body {
-  background-color: var(--color-base);
+  background-color: var(--color-dark);
   color: var(--color-white);
   text-align: center;
   margin: 0;
