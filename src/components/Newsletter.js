@@ -17,7 +17,7 @@ export default function Newsletter(){
         ).then(
             res => console.log(res)
         ).catch( 
-            err => console.log(err)
+            err => console.error(err)
         ).finally(
             console.log("finished")
         )
@@ -34,15 +34,15 @@ export default function Newsletter(){
         </div>
         <div className='newsletter-form'>
             <form onSubmit={handleNewsletterSubmit}>
-                <div class="indicates-required"><span className='font-small'><span class="asterisk">*</span> indicates required</span></div>
+                <div class="indicates-required"><span className='font-small'><span className="asterisk">*</span> indicates required</span></div>
                 <div class="field-group">
-                    <label for="mce-EMAIL">Email Address<span class="asterisk">* </span>
+                    <label for="mce-EMAIL">Email Address<span className="asterisk">* </span>
                 </label>
-                    <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" required />
+                    <input type="email" name="EMAIL" id="mce-EMAIL" required />
                 </div>
                 <div class="field-group">
                     <label for="mce-NAME">Name </label>
-                    <input type="text" value="" name="NAME" class="" id="mce-NAME" />
+                    <input type="text" name="NAME" id="mce-NAME" />
                 </div>
                 <div class="field-group input-group">
                     Games you want to hear about:
@@ -53,7 +53,7 @@ export default function Newsletter(){
                     </ul>
                 </div>
                 <div class="field-group input-group">
-                        Your <u>explicit</u> consent to contact you via email <span className='font-small'>(for GDPR purposes)</span><span class="asterisk">*</span>
+                        Your <u>explicit</u> consent to contact you via email <span className='font-small'>(for GDPR purposes)</span><span className="asterisk">*</span>
                         <input type="checkbox" value="Yes" name="EMAILCONS" id="mce-EMAILCONS-0" required/>
 
                 </div>

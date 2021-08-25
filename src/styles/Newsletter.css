@@ -28,6 +28,11 @@
     border-radius: 0.5rem;
 }
 
+.newsletter-form input[type=text]:focus, input[type=email]:focus{
+    border: 3px solid;
+    outline: none;
+}
+
 .newsletter-form input[type=submit]{
     background-color: var(--color-dark);
     color: var(--color-white);
@@ -39,6 +44,18 @@
 .newsletter-form input[type=submit]:hover{
     background-color: var(--color-light);
     color: var(--color-dark);
+}
+
+.newsletter-form input[type=checkbox]{
+    background-color: var(--color-light);
+    padding: 0.5rem;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+}
+
+.newsletter-form input[type=checkbox]:checked{
+    background-color: var(--color-dark);
+    color: var(--color-white);
 }
 
 .field-group{
