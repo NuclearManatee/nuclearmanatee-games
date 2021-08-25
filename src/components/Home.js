@@ -1,35 +1,27 @@
 import '../styles/Home.css';
 import Logo from './Logo';
-import React,{useEffect, useState} from 'react'
+import React,{useState} from 'react'
 import settings from '../data/settings.json'
 
 export default function App() {
   
   const {randomHomeText} = settings
+  console.log(randomHomeText)
 
-  const [text, setText] = useState('')
-  const defText = randomHomeText[Math.floor(Math.random() * 4)]
-  console.log(defText)
+  //set a random subtitle from the setting data
+  const [text, setText] = useState(randomHomeText[Math.floor(Math.random()*(randomHomeText.length))]);
 
-  console.log(settings)
-
-  useEffect( () => {
-    setText(defText)
-  },[defText]);
-
-  function setDefaultText(){
-    setText(defText)
+  function setRandomText(){
+    setText(randomHomeText[Math.floor(Math.random()*(randomHomeText.length))])
   }
   
   return (<>
     <div className="container">
-      <header className="header">
         <h1>a Nuclear Manatee</h1>
-        <p className='displayText'>
+        <p>
           {text}
         </p>
-        <Logo setText={setText} setDefaultText={setDefaultText} />
-      </header>
+        <Logo setRandomText={setRandomText} />
     </div>
   </>);
 }
