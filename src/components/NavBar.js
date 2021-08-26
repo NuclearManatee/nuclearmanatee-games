@@ -15,9 +15,9 @@ export default function NavBar() {
             <NavLink to='/games' activeClassName='navlink-selected'>
                 Games
             </NavLink>
-            <NavLink to='/newsletter' activeClassName='navlink-selected'>
+            <a target='_blank' rel='noreferrer' href='https://mailchi.mp/2c01d85709bb/a-message-in-the-bottle'>
                 Newsletter
-            </NavLink>
+            </a>
         </div>
     </>)
 }
